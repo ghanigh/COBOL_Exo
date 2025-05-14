@@ -12,7 +12,7 @@
 
        PROCEDURE DIVISION.
        DISPLAY "=== DEVINE LE NOMBRE ===".
-       DISPLAY "Je pense à un nombres entre 1 et 100...".
+       DISPLAY "Je pense à un nombre entre 1 et 100...".
 
        PERFORM UNTIL GAME-OVER = "Y"
            DISPLAY "Entre ta proposition : "
